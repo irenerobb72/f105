@@ -10,7 +10,7 @@
       </style>
     </head>
     <body>
-      <script src="bundle.js"></script>
+      <script src="js/three.js"></script>
       <script>
         var geometry = new THREE.BoxGeometry( 1, 1, 1 );
         var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
@@ -21,7 +21,7 @@
 
         function render() {
           requestAnimationFrame( render );
-          
+
           cube.rotation.x += 0.1
           cube.rotation.y += 0.1
 
