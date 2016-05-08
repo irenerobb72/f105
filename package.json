@@ -23,6 +23,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "devDependencies": {
-    "babel": "^6.5.2"
+    "babel": "^6.5.2",
+    "envify-loader": "^0.1.0"
   }
 }
